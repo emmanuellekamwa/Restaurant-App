@@ -1,0 +1,6 @@
+body {
+    background-image: url("images/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
