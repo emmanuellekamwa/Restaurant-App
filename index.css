@@ -3,4 +3,44 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 450%;
+}
+
+.sidebar-logo {
+    background-image: url("images/D.png");
+    width: 70%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.medias {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+
+i {
+    font-size: 24px;
+    color: rgb(255, 211, 0);
 }
