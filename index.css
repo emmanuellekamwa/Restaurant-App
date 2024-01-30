@@ -189,3 +189,24 @@ p {
     display: flex;
 }
 
+.booking {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.book {
+    background-color: rgb(255, 211, 0); 
+    font-size: 25px;
+    padding: 10px 30px;
+    color:#fff;
+}
+
+.lines {
+    width: 25%;
+    align-self: center;
+    border:2px solid rgb(255, 211, 0);
+}
+
