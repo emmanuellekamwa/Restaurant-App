@@ -62,7 +62,7 @@ i {
 
 h1 {
   color: #fff;
-  font-size: 5.0rem;
+  font-size: 5rem;
 }
 
 span {
@@ -93,7 +93,8 @@ p {
   color: #fff;
 }
 
-.ad-1, .ad-3 {
+.ad-1, 
+.ad-3 {
   background-color: #fff;
   padding: 30px 20px;
   display: flex;
@@ -127,7 +128,7 @@ p {
 .line {
   width: 25%;
   align-self: center;
-  border:2px solid rgb(255, 211, 0);
+  border: 2px solid rgb(255, 211, 0);
   margin-bottom: 20px;
 }
 
@@ -136,7 +137,8 @@ p {
   flex-direction: column;
 }
 
-.row1, .row2 {
+.row1, 
+.row2 {
   display: flex;
 }
 
@@ -204,12 +206,11 @@ p {
   background-color: rgb(255, 211, 0); 
   font-size: 25px;
   padding: 10px 30px;
-  color:#fff;
+  color: #fff;
 }
 
 .lines {
   width: 25%;
   align-self: center;
-  border:2px solid rgb(255, 211, 0);
+  border: 2px solid rgb(255, 211, 0);
 }
-
