@@ -1,120 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Gowun Batang', serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gowun Batang', serif;
 }
 
 .container {
-    background-image: url("images/restaurant.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    height: 100vh;
+  background-image: url("images/restaurant.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
 }
 
 .side-nav {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 20%;
 }
 
 .sidebar-logo {
-    background-image: url("images/D.png");
-    width: 70%;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
+  background-image: url("images/D.png");
+  width: 70%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
 }
 
 .links {
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
 }
 
 .medias {
-   display: flex;
-   justify-content: space-around;
-   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 i {
-    font-size: 24px;
-    color: rgb(255, 211, 0);
+  font-size: 24px;
+  color: rgb(255, 211, 0);
 }
 
 .main {
-    width: 80%;
-    height: 100%;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(14, 13, 13, 0.836);
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(14, 13, 13, 0.836);
 }
 
 h1 {
-    color: #fff;
-    font-size: 2.0rem;
+  color: #fff;
+  font-size: 2.0rem;
 }
 
 .adress {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .vertical-line {
-    width: 0%;
-    height: 30%;
-    align-self: center;
-    border:2px solid rgb(255, 211, 0);
+  width: 0%;
+  height: 30%;
+  align-self: center;
+  border:2px solid rgb(255, 211, 0);
 }
 
 h3 {
-    color: rgb(255, 211, 0); 
-    font-size: 1.5rem;
+  color: rgb(255, 211, 0); 
+  font-size: 1.5rem;
 }
 
-.time, span {
-    color:#fff;
-    font-size: 1.3rem;
+.time, 
+span {
+  color:#fff;
+  font-size: 1.3rem;
 }
 
 .book-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
 }
 
 .form-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-input, textarea {
-    width: 100%;
-    font-size: 1.2rem;
-    background: none;
-    padding: 10px;
-    margin: 10px 0px;
-    border: 1px solid rgb(255, 211, 0);
-    font-family: 'Gowun Batang', serif;
+input, 
+textarea {
+  width: 100%;
+  font-size: 1.2rem;
+  background: none;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid rgb(255, 211, 0);
+  font-family: 'Gowun Batang', serif;
 }
 
 .booking-btn {
-    background-color: rgb(255, 211, 0); 
-    border: 1px solid rgb(255, 211, 0);
-    width: 40%;
-    padding: 10px;
-    color:#fff;
-    margin: 10px 0px;
-    font-size: 1.5rem;
+  background-color: rgb(255, 211, 0); 
+  border: 1px solid rgb(255, 211, 0);
+  width: 40%;
+  padding: 10px;
+  color:#fff;
+  margin: 10px 0px;
+  font-size: 1.5rem;
 }
