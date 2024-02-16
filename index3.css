@@ -62,7 +62,7 @@ i {
 
 h1 {
   color: #fff;
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 .adress {
@@ -74,7 +74,7 @@ h1 {
   width: 0%;
   height: 30%;
   align-self: center;
-  border:2px solid rgb(255, 211, 0);
+  border: 2px solid rgb(255, 211, 0);
 }
 
 h3 {
