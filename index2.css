@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gowun Batang', serif;
+}
+
+.container {
+  background-image: url("images/restaurant.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+}
+
+.sidebar-logo {
+  background-image: url("images/D.png");
+  width: 70%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.medias {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+i {
+  font-size: 24px;
+  color: rgb(255, 211, 0);
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(14, 13, 13, 0.836);
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.line {
+  width: 25%;
+  border: 2px solid rgb(255, 211, 0);
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.row-1, 
+.row-2, 
+.row-3,
+.row-4, 
+.row-5 {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.cucumber, 
+.abacha, 
+.potato, 
+.okro, 
+.achu, 
+.nyama, 
+.koki, 
+.ogbono, 
+.jollof, 
+.puf, 
+.cake, 
+.dakere, 
+.folere, 
+.juice, 
+.corosol {
+  flex-direction: column;
+  border: 2px solid rgb(255, 211, 0);
+  width: 31%;
+  height: 20%;
+}
+
+.salad {
+  width: 100%;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border-top: 2px solid rgb(255, 211, 0);
+}
+
+.potato-footer, 
+.achu-footer, 
+.nyama-footer, 
+.ogbono-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  border-top: 2px solid rgb(255, 211, 0);
+}
+
+.ogbono-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 75px;
+  border-top: 2px solid rgb(255, 211, 0);
+}
+
+.jollof-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 44px;
+  border-top: 2px solid rgb(255, 211, 0);
+}
+
+.nyama-footer, 
+.puf-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 51px;
+  border-top: 2px solid rgb(255, 211, 0);
+}
+
+.bissap-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 44px;
+  padding-bottom: 28px;
+  border-top: 2px solid rgb(255, 211, 0);
+}
+
+.corosol-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 211, 0);
+  font-size: 20px; 
+  font-weight: bolder;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-top: 2px solid rgb(255, 211, 0);
+}

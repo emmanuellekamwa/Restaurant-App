@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gowun Batang', serif;
+}
+
+.container {
+  background-image: url("images/restaurant.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+}
+
+.sidebar-logo {
+  background-image: url("images/D.png");
+  width: 70%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.medias {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+i {
+  font-size: 24px;
+  color: rgb(255, 211, 0);
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(14, 13, 13, 0.836);
+}
+
+h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+span {
+  color: rgb(255, 211, 0); 
+}
+
+.advert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  color: black;
+  font-size: 55px;
+}
+
+.icon2 {
+  color: #fff;
+  font-size: 55px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.p2 {
+  color: #fff;
+}
+
+.ad-1, 
+.ad-3 {
+  background-color: #fff;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.ad-2 {
+  background-color: rgb(255, 211, 0);  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text {
+  color: #fff;
+  font-size: 30px;
+}
+
+.line {
+  width: 25%;
+  align-self: center;
+  border: 2px solid rgb(255, 211, 0);
+  margin-bottom: 20px;
+}
+
+.menu-galery {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1, 
+.row2 {
+  display: flex;
+}
+
+.egusi {
+  background-image: linear-gradient(rgba(7, 7, 7, 0.514), rgba(7, 7, 7, 0.68), rgba(8, 8, 8, 0.925)), url("images/egusi.jpg");
+  width: 50%; 
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.seafood {
+  background-image: linear-gradient(rgba(7, 7, 7, 0.514), rgba(7, 7, 7, 0.68), rgba(8, 8, 8, 0.925)), url("images/seafood.jpeg");
+  width: 50%; 
+  height: 50vh;
+  background-size: cover; 
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.barbequ {
+  background-image: linear-gradient(rgba(7, 7, 7, 0.514), rgba(7, 7, 7, 0.68), rgba(8, 8, 8, 0.925)), url("images/bbq.jpg");
+  width: 50%; 
+  height: 50vh;
+  background-size: cover;  
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.fufu {
+  background-image: linear-gradient(rgba(7, 7, 7, 0.514), rgba(7, 7, 7, 0.68), rgba(8, 8, 8, 0.925)), url("images/fufu.jpg");
+  width: 50%; 
+  height: 50vh;
+  background-size: cover;  
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.book {
+  background-color: rgb(255, 211, 0); 
+  font-size: 25px;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.lines {
+  width: 25%;
+  align-self: center;
+  border: 2px solid rgb(255, 211, 0);
+}
